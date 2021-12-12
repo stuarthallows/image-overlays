@@ -6,10 +6,14 @@ import './App.css';
 
 const Container = styled.div`
   background-color: #eee;
-  color: white;
   display: flex;
+  height: 100%;
   justify-content: center;
   position: relative;
+  
+  img {
+    object-fit: contain;
+  }
 `;
 
 export const Map: FC = () => { 
