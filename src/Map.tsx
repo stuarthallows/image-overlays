@@ -9,13 +9,13 @@ const Container = styled.div`
   color: white;
   display: flex;
   justify-content: center;
+  position: relative;
 `;
 
 export const Map: FC = () => { 
   return (
     <Container>
       <img src={graph} className="map-image" alt="the mine" />
-
       <Marker />
     </Container>
   )
