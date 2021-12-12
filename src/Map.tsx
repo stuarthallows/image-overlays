@@ -2,7 +2,6 @@ import { FC } from 'react';
 import styled from 'styled-components';
 import graph from './images/graph-paper.jpg';
 import { Marker } from './Marker';
-import './App.css';
 
 const Container = styled.div`
   background-color: #eee;

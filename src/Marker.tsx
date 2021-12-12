@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-type Coordinates = {
-  x: number;
-  y: number;
-};
+// type Coordinates = {
+//   x: number;
+//   y: number;
+// };
 
 const Container = styled.span`
   border-radius: 99999px;
@@ -18,10 +18,10 @@ const Container = styled.span`
 `;
 
 export const Marker = () => {
-  const coordinates: Coordinates = {
-    x: 0.5,
-    y: 0.4
-  };
+  // const coordinates: Coordinates = {
+  //   x: 0.5,
+  //   y: 0.4
+  // };
 
   return (
     <Container>😺</Container>

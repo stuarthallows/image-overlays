@@ -1,10 +1,14 @@
-import './App.css';
+import styled from 'styled-components';
 import { Map } from './Map';
+
+const Container = styled.div`
+  height: 100%;
+`;
 
 export const App = () => {
   return (
-    <div className="App">
+    <Container>
       <Map />
-    </div>
+    </Container>
   );
 }
